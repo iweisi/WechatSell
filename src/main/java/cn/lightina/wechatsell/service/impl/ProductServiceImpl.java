@@ -7,6 +7,7 @@ import cn.lightina.wechatsell.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
@@ -16,6 +17,7 @@ import java.util.List;
  * @createTime 2018/8/20
  * @proverb please find the joy in your life
  **/
+@Service
 public class ProductServiceImpl implements ProductService{
     @Autowired
     private ProductInfoRepository repository;
